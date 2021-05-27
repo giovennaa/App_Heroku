@@ -23,6 +23,6 @@ app.get('/methods', function(req,res){
     res.render('methods/methods.ejs');
 });
 
-app.listen(9001, function(){
+app.listen(5000, function(){
     console.log("Servidor rodando com Express");
 });
