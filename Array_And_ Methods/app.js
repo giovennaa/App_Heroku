@@ -12,7 +12,7 @@ app.use(express.static('./public'));
 
 
 app.get('/array', function(req,res){
-    res.render('arrey/arrey.ejs');
+    res.render('array/array.ejs');
 });
 
 app.get('/admin', function(req,res){
